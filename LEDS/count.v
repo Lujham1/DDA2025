@@ -1,4 +1,6 @@
-
+// Descripcion: Modulo que cuenta hasta un valor limite dependiendo de los switches y enciende un led cuando llega a ese valor limite
+//              El valor limite depende de los switches i_sw[2:1] y si i_sw[0] esta en 1, el contador cuenta, si esta en 0, el contador se mantiene
+//              El valor limite es:
 module count
 (
     parameter NB_SW = 3,
